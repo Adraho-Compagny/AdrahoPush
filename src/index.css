@@ -1,0 +1,28 @@
+@import url('https://unpkg.com/leaflet@1.9.3/dist/leaflet.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Bona Nova';
+  src: url('./assets/police/BonaNova-Regular.woff2') format('woff2'),
+       url('./assets/police/BonaNova-Regular.woff') format('woff'),
+       url('./assets/police/BonaNova-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Appliquer la police globalement */
+body {
+  font-family: 'Bona Nova', sans-serif;
+  overflow-x: hidden;
+}
+@layer components {
+  .tailwind-form {
+    @apply w-full px-4 py-2 border border-gray-300 focus:border-b-maron rounded-lg
+     focus:outline-none focus:border-b-[2.8px] text-[14px] placeholder-gray-400 text-zinc-800
+  }
+
+}
+
