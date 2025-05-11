@@ -1,7 +1,7 @@
-import boulette from "../assets/image/produit/transforme/boulette.png"
-import miette from "../assets/image/produit/transforme/miette.png"
-import riellete from "../assets/image/produit/transforme/Rillettes.png"
-import boudin from "../assets/image/produit/transforme/boudin.png"
+import boulette from "../assets/image/produit/transforme/boulette.jpeg"
+import miette from "../assets/image/produit/transforme/miette.jpeg"
+import riellete from "../assets/image/produit/transforme/Rillettes.jpeg"
+import boudin from "../assets/image/produit/transforme/boudin.jpeg"
 
 
 const transformer = [

@@ -7,7 +7,7 @@ import pate from "../../data/pate.js";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
-import parDefaut from "../../assets/image/produit/pate/thon.png";
+import parDefaut from "../../assets/image/produit/pate/thon.jpeg";
 import $ from "jquery";
 import PMPate from "./PMPate";
 import MMPate from "./MMPate.jsx";

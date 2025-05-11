@@ -1,7 +1,7 @@
-import mPoisson from "../assets/image/produit/mortadelle/MortPoisson.png"
-import mCrevette from "../assets/image/produit/mortadelle/MortCrevette.png"
-import mThon from "../assets/image/produit/mortadelle/MortThon.png"
-import mLangouste from "../assets/image/produit/mortadelle/MortLangouste.png"
+import mPoisson from "../assets/image/produit/mortadelle/MortPoisson.jpeg"
+import mCrevette from "../assets/image/produit/mortadelle/MortCrevette.jpeg"
+import mThon from "../assets/image/produit/mortadelle/MortThon.jpeg"
+import mLangouste from "../assets/image/produit/mortadelle/MortLangouste.jpeg"
 
 const mortadelle = [
   {

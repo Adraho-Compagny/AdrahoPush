@@ -1,5 +1,5 @@
-import anguille from "../assets/image/produit/fume/fumeAnguille.png"
-import fumePoisson from "../assets/image/produit/fume/fumePoisson.png"
+import anguille from "../assets/image/produit/fume/fumeAnguille.jpeg"
+import fumePoisson from "../assets/image/produit/fume/fumePoisson.jpeg"
 
 
 const fume = [

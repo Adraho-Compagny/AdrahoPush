@@ -1,7 +1,7 @@
-import pPoisson from "../assets/image/produit/pate/poisson.png"
-import pCrevette from "../assets/image/produit/pate/crevette.png"
-import pThon from "../assets/image/produit/pate/thon.png"
-import pLangouste from "../assets/image/produit/pate/langouste.png"
+import pPoisson from "../assets/image/produit/pate/poisson.jpeg"
+import pCrevette from "../assets/image/produit/pate/crevette.jpeg"
+import pThon from "../assets/image/produit/pate/thon.jpeg"
+import pLangouste from "../assets/image/produit/pate/langouste.jpeg"
 
 const pate = [
   {
