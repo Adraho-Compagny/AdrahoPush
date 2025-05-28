@@ -25,14 +25,14 @@ const products = [
   },
   {
     id: 4,
-    name: "Produits en Poudre",
-    sousTitre: "Assaisonnement",
+    name: "Produits Séchés",
+    sousTitre: "Sachet | Bocale",
     imageUrl: poudre,
   },
   {
     id: 5,
-    name: "Produits transformés",
-    sousTitre: "Pré-cuisson",
+    name: "Produits Transformés",
+    sousTitre: "Boyau | Bocale",
     imageUrl: cuisson,
   },
 ];

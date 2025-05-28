@@ -33,7 +33,7 @@ function Angagement() {
       </p>
 
       <div className="slider-container relative px-4 md:px-12 grid md:grid-cols-2 lg:grid-cols-4 gap-y-4 gap-x-4">
-        <div id="slide-engagement" className="bg-gray-50 rounded-xl px-8 pt-3 pb-8 text-center">
+        <div id="slide-engagement" className="bg-gray-50 rounded-xl px-8 pt-3 pb-8 text-center hover:bg-gray-100 cursor-pointer">
           <div className="w-full flex items-center justify-center">
             <img src={tanana} alt="main.png" className="w-[250px]" srcSet="" />
           </div>
@@ -44,7 +44,7 @@ function Angagement() {
           </p>
         </div>
 
-        <div id="slide-engagement" className="bg-gray-50 rounded-xl px-8 pt-3 pb-8 text-center">
+        <div id="slide-engagement" className="bg-gray-50 rounded-xl px-8 pt-3 pb-8 text-center hover:bg-gray-100 cursor-pointer">
           <div className="w-full flex items-center justify-center">
             <img src={globe} alt="main.png" className="w-[250px]" srcSet="" />
           </div>
@@ -55,7 +55,7 @@ function Angagement() {
           </p>
         </div>
 
-        <div id="slide-engagement" className="bg-gray-50 rounded-xl px-8 pt-3 pb-8 text-center">
+        <div id="slide-engagement" className="bg-gray-50 rounded-xl px-8 pt-3 pb-8 text-center hover:bg-gray-100 cursor-pointer">
           <div className="w-full flex items-center justify-center">
             <img src={social} alt="main.png" className="w-[110px]" srcSet="" />
           </div>
@@ -66,7 +66,7 @@ function Angagement() {
           </p>
         </div>
 
-        <div id="slide-engagement" className="bg-gray-50 rounded-xl px-8 pt-3 pb-8 text-center">
+        <div id="slide-engagement" className="bg-gray-50 rounded-xl px-8 pt-3 pb-8 text-center hover:bg-gray-100 cursor-pointer">
           <div className="w-full flex items-center justify-center">
             <img src={savoir} alt="main.png" className="w-[110px]" srcSet="" />
           </div>

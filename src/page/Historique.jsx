@@ -25,7 +25,7 @@ const Historique = () => {
 
       <p className="flex">
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Née en 2021 au coeur de la région Fitovinany 
-        , Adraho Company est une entreprise passionnée par la valorisation des richesses de la mer.
+        , Adraho Company est une entreprise passionnée par la valorisation des richesses halieutiques.
         Forts d'un profond attachement à notre île et soucieux de préserver ses 
         ressources, nous transformons les produits de la pêches en délices 
         gastronomiques, tous en offrant des perspectives d'avenir aux communautés côtières.
@@ -34,7 +34,7 @@ const Historique = () => {
       <p className="my-8">
         Notre histoire est celle d'une ambition : donner une nouvelle vie aux 
         trésors de nos océans. En combinant savoir-faire traditionnel et technologies 
-        modernes, nous créons des produits de la mer de qualité supérieure, respectueux
+        modernes, nous créons des produits de haute qualité , respectueux
         de l'environnement et des hommes
       </p>
 

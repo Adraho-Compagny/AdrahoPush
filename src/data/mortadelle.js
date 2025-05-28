@@ -13,23 +13,23 @@ const mortadelle = [
   },
   {
     id: 2,
-    name: " Mortadelles de thon",
+    name: "Mortadelles de thon",
     sousTitre: "Thon Della",
-    desc : "Thon'Della est une mortadelle de thon alliant fraîcheur et saveur, parfaite pour tous les types de repa.",
+    desc : "Thon'Della est une mortadelle de thon alliant fraîcheur et saveur, parfaite pour tous les types de repas.",
     imageUrl: mThon,
   },
   {
     id: 3,
     name: "Mortadelles de crevettes",
     sousTitre: "Maniry",
-    desc : "Maniry est une mortadelle de crevettes riche en saveurs maritimes, idéale pour des repas délicats.",
+    desc : "Maniry est une mortadelle de crevettes riche en saveurs marines, idéale pour des repas délicats.",
     imageUrl: mCrevette,
   },
   {
     id: 4,
     name: "Mortadelles de langoustes",
     sousTitre: "Langouste Fine",
-    desc : "Langouste Fine est une mortadelle de langouste raf inée, riche en saveurs et idéale pour vos moments gastronomique",
+    desc : "Langouste Fine est une mortadelle de langouste raffinée, riche en saveurs et idéale pour vos moments gastronomiques.",
     imageUrl: mLangouste,
   },
 

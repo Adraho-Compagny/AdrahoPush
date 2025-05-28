@@ -34,7 +34,7 @@ const Produits = () => {
     } else if (id == 3) {
       navige("/produits/fume");
     } else if (id == 4) {
-      alert("il n'y a pas encore d'image pour ce produit");
+      navige("/produits/poudre");
     } else {
       navige("/produits/transforme");
     }
@@ -67,12 +67,12 @@ const Produits = () => {
               value={searchTerm}
               className="tailwind-form"
             >
-              <option value="" selected disabled>
+              <option value="" hidden disabled>
                 catégories des produits
               </option>
               <option value="">Tous les produits</option>
               {products.map((p) => (
-                <option value={p.name}>{p.name}</option>
+                <option key={p.id} value={p.name}>{p.name}</option>
               ))}
             </select>
             <button className="flex items-center justify-center p-2 rounded-md bg-maintso text-white">
@@ -98,8 +98,8 @@ const Produits = () => {
             </div>
           ) : (
             <div className="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-6">
-              {filteredData.map((product) => (
-                <div id="slide-produit" onClick={() => redirectFonction(product.id)}>
+              {filteredData.map((product, idx) => (
+                <div key={idx} id="slide-produit" onClick={() => redirectFonction(product.id)}>
                   <ProductItem key={product.id} product={product} />
                 </div>
               ))}

@@ -6,28 +6,28 @@ import pLangouste from "../assets/image/produit/pate/langouste.jpeg"
 const pate = [
   {
     id: 1,
-    name: "Pâtés de poisson",
+    name: "Pâté de poisson",
     sousTitre: "Océan Gourmet",
-    desc : "Délicatement préparé avec du poisson frais et des épices, Océan Gourmet est un pâté raffiné idéal pour vos tartines ou apéritifs",
+    desc : "Délicatement préparé avec du poisson frais et des épices, Océan Gourmet est un pâté raffiné idéal pour vos tartines ou apéritifs.",
     imageUrl: pPoisson,
   },
   {
     id: 2,
-    name: "Pâtés de thon",
+    name: "Pâté de thon",
     sousTitre: "Thon Délice",
     desc : "Fait à partir de thon soigneusement sélectionné, Thon Délice est un plaisir savoureux qui sublime vos repas.",
     imageUrl: pThon,
   },
   {
     id: 3,
-    name: "Pâtés de crevettes",
+    name: "Pâté de crevette",
     sousTitre: "Crev'Crémeux",
     desc : "Savourez Crev'Crémeux, un pâté de crevettes onctueux et riche en saveurs marines.",
     imageUrl: pCrevette,
   },
   {
     id: 4,
-    name: "Pâtés de langoustes",
+    name: "Pâté de langouste",
     sousTitre: "Langouste Royale",
     desc : "Une spécialité exquise, Langouste Royale est un mélange raffiné de langoustes fraîches et d'épices.",
     imageUrl: pLangouste,

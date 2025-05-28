@@ -48,7 +48,7 @@ const GMBoyauMort = () => {
         alignmentBaseline="middle"
         fontWeight="bold"
       >
-        250g
+        500g
       </text>
     </svg>
   );

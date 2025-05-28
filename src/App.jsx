@@ -12,10 +12,13 @@ import Pate from "./composant/ProduitComponent/Pate";
 import Mortadelle from "./composant/ProduitComponent/Mortadelle";
 import Fume from "./composant/ProduitComponent/Fume";
 import Transformer from "./composant/ProduitComponent/Transformer";
+import Poudre from "./composant/ProduitComponent/Poudre";
+import { ToastContainer } from "react-toastify";
 
 function App() {
   return (
     <>
+      <ToastContainer position="bottom-right" />
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<LayoutPrimary />}>
@@ -32,6 +35,7 @@ function App() {
             <Route path="produits/pate" element={<Pate />} />
             <Route path="produits/mortadelle" element={<Mortadelle />} />
             <Route path="produits/fume" element={<Fume />} />
+            <Route path="produits/poudre" element={<Poudre />} />
             <Route path="produits/transforme" element={<Transformer />} />
           </Route>
         </Routes>

@@ -21,17 +21,17 @@ const Header = () => {
   const scrollProduit = (e) => {
     closeAllMenus();
     e.preventDefault(); // Empêche le comportement par défaut du lien
-    navigate("/", { state: { scrollTo: "nos-produits" } }); // Navigue vers la page Accueille avec un état
+    navigate("/", { state: { scrollTo: "nos-produits" } }); // Navigue vers la page Accueil avec un état
   };
   const scrollActus= (e) => {
     closeAllMenus();
     e.preventDefault(); // Empêche le comportement par défaut du lien
-    navigate("/", { state: { scrollTo: "actus" } }); // Navigue vers la page Accueille avec un état
+    navigate("/", { state: { scrollTo: "actus" } }); // Navigue vers la page Accueil avec un état
   };
   const scrollAcc = (e) => {
     closeAllMenus()
     e.preventDefault(); // Empêche le comportement par défaut du lien
-    navigate("/", { state: { scrollTo: "acc" } }); // Navigue vers la page Accueille avec un état
+    navigate("/", { state: { scrollTo: "acc" } }); // Navigue vers la page Accueil avec un état
   };
 
   const headerClass = `w-full px-8 md:px-[5rem] py-4 fixed top-0 left-0 z-50 transition-all duration-300 bg-white shadow-sm`;
@@ -49,7 +49,7 @@ const Header = () => {
         {/* Navigation pour desktop */}
         <nav className="hidden md:flex items-center justify-center space-x-10">
           <Link to="#" onClick={scrollAcc} className={navLinkClass}>
-            Accueille
+            Accueil
           </Link>
 
           <div className="relative">
@@ -124,7 +124,7 @@ const Header = () => {
             className="block py-2 px-10 hover:bg-gray-100"
             
           >
-            Accueille
+            Accueil
           </Link>
 
           <div className="border-t border-gray-100">

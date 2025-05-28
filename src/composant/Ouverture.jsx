@@ -41,7 +41,7 @@ const Ouverture = () => {
         <div className="w-full flex items-center justify-center md:hidden ">
           <div className="rounded-3xl h-[8px] w-[10rem] bg-white mb-4"></div>
         </div>
-        <p className="text-[3em] font-bold" id="slide-ouverture">ADRAHO COMPAGNY</p>
+        <p className="text-[3em] font-bold" id="slide-ouverture">ADRAHO COMPANY</p>
         <p className="text-[2em] font-bold md:flex md:items-center" id="slide-ouverture">
           <MapPin className="hidden md:block mr-4 text-maintso" /> Mangatsiotra
           Manakara
@@ -50,11 +50,11 @@ const Ouverture = () => {
         <p className="text-mara" id="slide-ouverture">et d'eau douce de qualité supérieur</p>
       </div>
 
-      <div className="flex items-center justify-start space-x-4 text-white">
+      <div className="flex items-center justify-start space-x-4 text-white"> 
         <div className="rounded-t-lg bg-maintso px-4 pt-4 pb-4" id="slide-ouverture">
           <FaWhatsapp size={30} />
         </div>
-        <p id="slide-ouverture">+261 038 37 107 32</p>
+        <p id="slide-ouverture">+261 34 37 107 32</p>
       </div>
     </div>
   );

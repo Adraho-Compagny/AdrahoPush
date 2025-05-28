@@ -64,7 +64,7 @@ const Header = ({ isScrolled }) => {
         {/* Navigation pour desktop */}
         <nav className="hidden md:flex items-center justify-center space-x-10">
           <Link to="#" onClick={scrollToTop} className={navLinkClass}>
-            Accueille
+            Accueil
           </Link>
 
           <div className="relative">
@@ -87,7 +87,7 @@ const Header = ({ isScrolled }) => {
                   className="block px-4 py-2 hover:text-mara whitespace-nowrap"
                   onClick={closeAllMenus}
                 >
-                  Historique
+                  De historique
                 </Link>
                 <Link
                   to="/missions"
@@ -152,7 +152,7 @@ const Header = ({ isScrolled }) => {
             onClick={scrollToTop}
             className="block py-2 px-10 hover:bg-gray-100"
           >
-            Accueille
+            Accueil
           </Link>
 
           <div className="border-t border-gray-100">
@@ -175,7 +175,7 @@ const Header = ({ isScrolled }) => {
                   className="block px-14 py-2 hover:bg-gray-100"
                   onClick={closeAllMenus}
                 >
-                  Historique
+                  De historique
                 </Link>
                 <Link
                   to="/missions"

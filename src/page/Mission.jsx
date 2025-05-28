@@ -61,7 +61,7 @@ const Mission = () => {
         <BarChart3 className="text-maron w-[10em] md:w-auto" />
         <p>
           <p className="font-bold text-maron text-[17px]">
-            Satisfaire les consommateirs :
+            Satisfaire les consommateurs :
           </p>
           En proposant des produits sains, savoureux et innovants, 
           nous repondons aux attentes d'unes clientèle exigeante,

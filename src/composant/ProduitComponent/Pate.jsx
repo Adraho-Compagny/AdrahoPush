@@ -164,7 +164,7 @@ const Pate = () => {
           <p className="font-bold text-black text-[17px]">Disponibles en :</p>
           <div className="flex items-center space-x-2">
             <Star size={10} className="text-maintso" />
-            <h1 className="text-maintso text-[20px]">Bîte de conserve</h1>
+            <h1 className="text-maintso text-[20px]">Boîte de conserve</h1>
           </div>
 
           <div className="px-6 -space-y-[2.5rem] -mt-[1rem]">
